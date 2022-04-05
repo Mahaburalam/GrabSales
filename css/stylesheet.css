@@ -279,7 +279,7 @@ a:hover {
    	5. HEADER.
    ==================================*/
 .top-header{
-    background: transparent;
+    background: #3E980C;
     height: 60px;
     width: 100%;
     clear: both;
@@ -333,7 +333,7 @@ hr.top-line{
 
 header{
     height: 100%;
-    background: #0A178F;
+    background: #3E980C;
     position: relative;
 }
 
@@ -350,8 +350,8 @@ header .container{
 /* Curves */
 #curveUpColor path,
 #curveDownColor path {
-  fill: #0A178F;
-  stroke: #0A178F; 
+  fill: #3E980C;
+  stroke: #3E980C; 
 }
 
 #curveUpColor{
@@ -476,7 +476,7 @@ circle:nth-of-type(4) {
    	7. FOOTER.
    ========================================================================== */
 footer{
-    background: #0A178F;
+    background: #3E980C;
     height: 100%;
     padding: 10px 0px 60px 0px;
 }
@@ -662,7 +662,7 @@ hr.footer{
 
 .sections{
     height: 430px;
-    background: #0A178F;
+    background: #3E980C;
 }
 
 .sections #particles-js {
@@ -721,7 +721,8 @@ hr.footer{
 }
 .img-control{
     height: 300px; 
-    border: 2px solid;
+    border: 1px solid gray;
+    border-radius: 20%;
 }
 
 figure.about-pic img{
@@ -761,7 +762,7 @@ figure.about-pic img{
 }
 
 .counter-container{
-    height: 400px;
+    height: 190px;
     margin: 0px auto;
 }
 
